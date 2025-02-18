@@ -1,5 +1,5 @@
 import Navbar from "../components/headers/Navbar";
-import Footer from "../components/footers/footer";
+
 import { useEffect, useState } from "react";
 import { Modal } from 'antd';
 import AddIncomeModal from "../components/modals/AddIncome";
@@ -158,7 +158,7 @@ onFinish={onFinish}
         <MonthlyExpensesBarChart transactions={transactions} />
         <CategoryWisePieChart transactions={transactions} />
         <div className="mt-10"></div>
-        <Footer />
+      
       </div>
     </div>
   );
